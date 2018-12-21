@@ -165,4 +165,23 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<scm>
+	<url>https://github.com/sambit54321/test1</url>
+		<connection>scm:git:git://https://github.com/sambit54321/test1.git</connection>
+		<developerConnection>scm:git:git@github.com:https://github.com/sambit54321/test1.git</developerConnection>
+		</scm>
+		<distributionManagement>
+<repository>
+<id>forbackup</id>
+<url>
+http://localhost:8081/nexus/content/repositories/forbackup/
+</url>
+</repository>
+<snapshotRepository>	
+<id>sambit</id>
+<url>
+http://localhost:8081/nexus/content/repositories/sambit/
+</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
